@@ -1,0 +1,49 @@
+
+*{
+    font-family: 'Lato';
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 0.5rem;
+    border-radius: 3px;
+    background-color: #D2B4DE;
+    border: 1px solid  #D2B4DE;
+    outline: none;
+}
+.btn :active { 
+    transform: scale(0.90);
+}
+
+.jsontable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x:auto;
+}
+
+td,th{
+    padding: 1rem;
+    border-bottom: 1px solid #B2BABB;
+}
+
+table{
+    box-sizing: border-box;
+    text-align: left;
+    padding: 1rem;
+    background-color: #F4ECF7;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+tr:hover {background-color: #f5f5f5;}
+
+
+@media only screen and (max-width: 600px){
+        /* td,th{
+            padding: 0;
+        } */
+}
